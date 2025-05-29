@@ -1,0 +1,12 @@
+# Virtual environment
+env/
+.env/
+
+# Gradio temp files and folders
+.gradio/
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+

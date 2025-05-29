@@ -1,0 +1,40 @@
+
+HR EMPLOYEE ATTRITION - MODEL EVALUATION REPORT
+Generated: 2025-05-29 11:00:42
+
+DATASET SUMMARY:
+- Total samples: 1058
+- Training samples: 846
+- Test samples: 212
+- Features: 44
+- Attrition rate: 16.90%
+
+FINAL MODEL PERFORMANCE:
+- Model: Logistic Regression
+- Encoding: One-Hot Encoded
+- Accuracy: 0.8726
+- Precision: 0.6667
+- Recall: 0.5000
+- F1-Score: 0.5714
+- ROC-AUC: 0.8205
+
+CONFUSION MATRIX:
+True Negatives: 167
+False Positives: 9
+False Negatives: 18
+True Positives: 18
+
+BUSINESS IMPACT:
+- Retention Capture Rate: 50.0%
+- Precision Rate: 66.7%
+
+CROSS-VALIDATION:
+- Mean F1-Score: 0.4894
+- Standard Deviation: 0.0372
+
+RECOMMENDATIONS:
+1. Deploy model for real-time attrition prediction
+2. Focus retention efforts on high-risk employees (probability > 0.5)
+3. Monitor model performance monthly and retrain if needed
+4. Consider feature engineering for improved performance
+5. Implement A/B testing for retention strategies
