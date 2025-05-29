@@ -75,30 +75,30 @@ Untuk menyelesaikan permasalahan di atas, proyek ini akan memiliki cakupan sebag
     ```
 
 3. **Instal semua dependensi dari requirements.txt**:
-  ```
-  pip install -r requirements.txt
-  ```
+     ```
+     pip install -r requirements.txt
+     ```
 4. **Jalankan Notebook Analisis**:
 
-  Buka file hr_attrition_notebook.ipynb menggunakan Jupyter Notebook atau VSCode Jupyter, lalu jalankan seluruh sel untuk melakukan eksplorasi dan analisis data.
+     Buka file hr_attrition_notebook.ipynb menggunakan Jupyter Notebook atau VSCode Jupyter, lalu jalankan seluruh sel untuk melakukan eksplorasi dan analisis data.
 
 5. **Deploy Model Menggunakan Gradio**:
 
-Tersedia file bernama gradio_deployment.py yang dapat dijalankan untuk menyajikan model prediksi dalam antarmuka web sederhana berbasis Gradio.
+      Tersedia file bernama gradio_deployment.py yang dapat dijalankan untuk menyajikan model prediksi dalam antarmuka web sederhana berbasis Gradio.
+      
+      Jalankan dengan:
+      
+      ```
+      python gradio_deployment.py
+      ```
 
-Jalankan dengan:
-
-```
-python gradio_deployment.py
-```
-
-Koneksi ke Dashboard Metabase:
-
-Proyek ini juga dilengkapi dengan dashboard interaktif menggunakan Metabase, yang menyimpan konfigurasinya dalam file metabase.db.mv. Untuk masuk ke Metabase, gunakan kredensial berikut:
-
-> Email: mrizki135790@gmail.com
-
-> Password: dG8M@BWcewxUtxc
+      Koneksi ke Dashboard Metabase:
+      
+      Proyek ini juga dilengkapi dengan dashboard interaktif menggunakan Metabase, yang menyimpan konfigurasinya dalam file metabase.db.mv. Untuk masuk ke Metabase, gunakan kredensial berikut:
+      
+      > Email: mrizki135790@gmail.com
+      
+      > Password: dG8M@BWcewxUtxc
 ---
 ## Business Dashboard
 # 📈 HR Attrition Monitoring Dashboard
@@ -183,5 +183,4 @@ Dengan tingkat akurasi sebesar **87,26%**, model prediktif ini bisa menjadi alat
 
 ---
 
-> 🧩 *Catatan:* Proyek ini dapat dikembangkan lebih lanjut dengan integrasi **dashboard real-time**, **automasi retraining model**, dan **penggunaan feedback loop dari tim HR**.
 
